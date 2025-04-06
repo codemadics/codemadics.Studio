@@ -1,0 +1,16 @@
+.carousel-img {
+  width: 100%;         /* make it responsive inside the slide */
+  height: 300px;       /* adjust as needed */
+  object-fit: cover;   /* keeps image nicely cropped */
+  border-radius: 10px; /* optional: round corners */
+}
+
+mat-card {
+  min-width: 300px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+mat-card.active {
+  opacity: 1;
+}
