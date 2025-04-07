@@ -1,1 +1,6 @@
-<p>design-grid works!</p>
+<div class="grid-container">
+  <app-design-tile
+    *ngFor="let item of designItems"
+    [design]="item">
+  </app-design-tile>
+</div>

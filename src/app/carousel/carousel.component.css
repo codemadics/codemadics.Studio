@@ -3,7 +3,9 @@
   height: 300px;       /* adjust as needed */
   object-fit: cover;   /* keeps image nicely cropped */
   border-radius: 10px; /* optional: round corners */
+  margin-top: 65px; /* Adjust based on your actual navbar height */
 }
+
 
 mat-card {
   min-width: 300px;
